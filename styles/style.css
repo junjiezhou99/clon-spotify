@@ -1,8 +1,122 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+.logo{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 2em;
+    font-size: 120%;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-screen{
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10% 25% 20% 25%;
+}
+.main-screen h1{
+    color: #FFF;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-screen h2{
+    color: #FFF;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.whats-spotify h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% 38% 5% 38%;
+    border-bottom: 3px solid #00B172;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+}
+.icons article{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 6%;
+}
+.icons article h3{
+    font-size: 30px;
+    color: #00B172;
+}
+.icons article h4{
+    font-weight: 100;
+    font-size: 25px;
+}
+.icons article div img{
+    width: 130px;
+}
+
+.final{
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+}
+.descripcion .titleText{
+    color: #FFF;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight:300;
+    margin: 9%;
+}
+.descripcion span {
+    border-bottom: 3px solid white;
+}
+.descripcion .text{
+    color: #FFF;
+    margin-left: 9%;
+    margin-right: 50%;
+}
+.descripcion h2{
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
+.descripcion h4{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.appfoto div img{ 
+    width: 60%;
+    margin: 20% 20%;
+}
